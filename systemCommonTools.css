@@ -1,0 +1,139 @@
+/*
+ * systemTools.css
+ * Version 0.0.1
+ * Date 2017-07-06
+ * Author lily
+ * Yuxin technology group co., LTD 
+ * */
+ 
+/*If you have already introduced the bootstrap.css file, you can ignore the content */
+
+.pull-left:{
+	float:left!important;
+}
+.pull-right:{float: right!important;}
+.clearfix:before,
+.clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{clear: both;}
+.center-block{display: block;margin-left: auto;margin-right: auto;}
+
+.text-left:{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.text-justify{text-align: justify;}
+.text-nowrap{white-space: nowrap;}
+.text-hide{font: 0/0 a;color: transparent;background-color: transparent;text-shadow: none;border: 0;}
+
+.hide{display: none!important;}
+.show{display: block!important;}
+.invisible{visibility: hidden;}
+
+.affix{position: fixed;}
+
+
+/*the following is common class*/
+
+/* title: distance
+ * declare: you can adjust according to your own needs
+ * */
+.m0{margin:0}
+.ml0{margin-left: 0;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml15{margin-left: 15px;}
+.ml25{margin-left: 25px;}
+.ml30{margin-left: 30px;}
+.ml20{margin-left: 20px;}
+.mr0{margin-right: 0;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr15{margin-right: 15px;}
+.mr20{margin-right: 20px;}
+.mr25{margin-right: 25px;}
+.mr30{margin-right: 30px;}
+.mt0{margin-top: 0;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top:30px}
+.mb0{margin-bottom: 0;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mb25{margin-bottom: 25px;}
+.mb30{margin-bottom: 30px;}
+.p0{padding: 0;}
+.pl0{padding-left: 0;}
+.pl5{padding-left: 5px;}
+.pl10{padding-left: 10px;}
+.pl15{padding-left: 15px;}
+.pl20{padding-left: 20px;}
+.pl25{padding-left: 25px;}
+.pl30{padding-left: 30px;}
+.pr0{padding-right: 0;}
+.pr5{padding-right: 5px;}
+.pr10{padding-right: 10px;}
+.pr15{padding-right: 15px;}
+.pr20{padding-right: 20px;}
+.pr25{padding-right: 25px;}
+.pr30{padding-right: 30px;}
+.pt0{padding-top: 0;}
+.pt5{padding-top: 5px;}
+.pt10{padding-top: 10px;}
+.pt15{padding-top: 15px;}
+.pt20{padding-top: 20px;}
+.pt25{padding-top: 25px;}
+.pt30{padding-top: 30px;}
+.pb0{padding-bottom: 0;}
+.pb5{padding-bottom: 5px;}
+.pb10{padding-bottom: 10px;}
+.pb15{padding-bottom: 15px;}
+.pb20{padding-bottom: 20px;}
+.pb25{padding-bottom: 20px;}
+.pb30{padding-bottom: 30px;}
+
+.top0{top:0;}
+.top5{top:5px}
+.top10{top:10px}
+.bottom0{bottom: 0;}
+.bottom5{bottom:5px}
+.bottom10{bottom: 10px;}
+.left0{left:0}
+.left5{left:5px}
+.left10{left:10px}
+.right0{right: 0;}
+.right5{right: 5px;}
+.right10{right: 10px;}
+
+.noBorder{border: none;}
+
+.pointer{cursor: pointer;}
+.arrowMouse{cursor: default;}
+
+.absolute{position: absolute;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+.static{position: static;}
+
+.vertical-middle{vertical-align: middle;*display: inline;*zoom: 1;}
+
+.pull-default{float: none;}
+
+input::-ms-clear{display: none;}  //解决ie10的小叉号
+input:focus{outline: none;}
+
+.text-overflow-ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-break: break-all;word-wrap: break-word;} //单行文本溢出
+
+.inline-block{display: inline-block;}
+
+
+/*common colorBg*/
+/*common fontSize*/
+/*common fontColor*/
+
